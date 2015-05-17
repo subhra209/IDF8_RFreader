@@ -163,9 +163,20 @@ void COM_task()
 			uartData = UART_read();	
 
 			
+			communication.rxPacketBuffer[communication.rxPacketIndex++]=uartData;
+			if( communication.rxPacketIndex >= RX_PACKET_SIZE)
+			{
+				communication.txPacketBuffer[COM_DEVICE_ADDRESS_INDEX] = DEVICE_ADDRESS;	//store device address
+				++communication.txPacketLength;
 
-		//	if(uartData == communication.rx_eop )
-			if(communication.rxPacketIndex >= 6)
+				communication.txPacketBuffer[COM_TX_CODE_INDEX] = COM_RESP_OVERRUN;		//store tx code
+				++communication.txPacketLength;
+				
+				communication.state = COM_IN_TX_DATA;
+				
+			}
+			// sotre the data upto its define legth
+			if(communication.rxPacketIndex >= PACKET_LENGTH)
 			{
 				UINT8 parseResult = 0;
 				COM_RESP_CODE txCode = COM_RESP_NONE;
@@ -226,23 +237,7 @@ void COM_task()
 				}
 				communication.state = COM_IN_TX_DATA;
 			}
-			else
-			{
-				communication.rxPacketBuffer[communication.rxPacketIndex++]=uartData;
-			
-				if( communication.rxPacketIndex >= RX_PACKET_SIZE)
-				{
-					communication.txPacketBuffer[COM_DEVICE_ADDRESS_INDEX] = DEVICE_ADDRESS;	//store device address
-					++communication.txPacketLength;
 
-					communication.txPacketBuffer[COM_TX_CODE_INDEX] = COM_RESP_OVERRUN;		//store tx code
-					++communication.txPacketLength;
-					
-					communication.state = COM_IN_TX_DATA;
-					
-				}
-			
-			}
 			break;
 
 		case COM_IN_TX_DATA:

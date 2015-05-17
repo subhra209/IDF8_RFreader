@@ -40,6 +40,7 @@
 //#define KEYPAD_TEST
 
 //COM module configuration
+#define PACKET_LENGTH 	6
 #define __BCC_XOR__
 #define __RESPONSE_ENABLED__
 #define _NO_CHECKSUM_

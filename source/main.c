@@ -165,7 +165,6 @@ void main(void)
 	
 	COM_init(CMD_SOP , CMD_EOP ,RESP_SOP , RESP_EOP , APP_comCallBack);
 
-	APP_init();
 
 	EnableInterrupts();
 
@@ -186,7 +185,7 @@ void main(void)
 			comUpdateCount = 0;
 		}
 
-		if(appUpdateCount >= 10)
+		if(appUpdateCount >= 5)
 		{
 			APP_task();
 			appUpdateCount = 0;
