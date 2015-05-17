@@ -42,10 +42,11 @@
 //COM module configuration
 #define __BCC_XOR__
 #define __RESPONSE_ENABLED__
+#define _NO_CHECKSUM_
 //#define __UART_TEST__
 //#define __LOOP_BACK__
 #define BROADCAST_ADDRESS		0xFF
-#define CMD_SOP	0xAA
+#define CMD_SOP	0x41
 #define CMD_EOP 0xBB
 #define RESP_SOP	0xCC
 #define RESP_EOP	0xDD
@@ -83,6 +84,8 @@ enum
 * Public Data Types
 *------------------------------------------------------------------------------
 */
+
+#define MAX_CARDS 4
 
 /*
 *------------------------------------------------------------------------------

@@ -1,5 +1,5 @@
 MPLINK 4.48, Linker
-Linker Map File - Created Sun May 17 10:04:21 2015
+Linker Map File - Created Sun May 17 16:37:44 2015
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -7,64 +7,64 @@ Linker Map File - Created Sun May 17 10:04:21 2015
                _entry_scn       code   0x000000    program   0x000006
            .code___init.o       code   0x000006    program   0x000002
               high_vector       code   0x000008    program   0x00000a
-            .code_udefs.o       code   0x000012    program   0x000000
-        .idata___init.o_i    romdata   0x000012    program   0x000000
-         .idata_board.o_i    romdata   0x000012    program   0x000000
-  .code_interruptvector.o       code   0x000012    program   0x000000
-           .idata_app.o_i    romdata   0x000012    program   0x000000
-            .code_c018i.o       code   0x000012    program   0x000000
-         .idata_c018i.o_i    romdata   0x000012    program   0x000000
                low_vector       code   0x000018    program   0x000014
                     .code       code   0x00002c    program   0x000020
-               APP_DATA_i    romdata   0x00004c    program   0x000001
-         .idata_udefs.o_i    romdata   0x00004d    program   0x000000
-             .stringtable    romdata   0x00004d    program   0x000000
-         .romdata_uread.o    romdata   0x00004d    program   0x000000
-         .idata_uread.o_i    romdata   0x00004d    program   0x000000
-         .romdata_uopen.o    romdata   0x00004d    program   0x000000
-         .idata_uopen.o_i    romdata   0x00004d    program   0x000000
-        .romdata_t0open.o    romdata   0x00004d    program   0x000000
-        .idata_t0open.o_i    romdata   0x00004d    program   0x000000
-      .romdata_fxd3232u.o    romdata   0x00004d    program   0x000000
-          .romdata_uart.o    romdata   0x00004d    program   0x000000
-          .idata_uart.o_i    romdata   0x00004d    program   0x000000
-         .idata_timer.o_i    romdata   0x00004d    program   0x000000
-         .romdata_timer.o    romdata   0x00004d    program   0x000000
-          .romdata_main.o    romdata   0x00004d    program   0x000000
-         .romdata_udefs.o    romdata   0x00004d    program   0x000000
-.romdata_interruptvector.o    romdata   0x00004d    program   0x000000
-.idata_interruptvector.o_i    romdata   0x00004d    program   0x000000
-     .romdata_heartBeat.o    romdata   0x00004d    program   0x000000
-     .idata_heartBeat.o_i    romdata   0x00004d    program   0x000001
-       .idata_t0write.o_i    romdata   0x00004d    program   0x000000
-       .romdata_t0write.o    romdata   0x00004d    program   0x000000
- .romdata_communication.o    romdata   0x00004d    program   0x000000
-         .romdata_board.o    romdata   0x00004d    program   0x000000
-        .romdata___init.o    romdata   0x00004d    program   0x000000
-           .romdata_app.o    romdata   0x00004d    program   0x000000
-         .romdata_c018i.o    romdata   0x00004d    program   0x000000
- .idata_communication.o_i    romdata   0x00004e    program   0x000002
-      .idata_fxd3232u.o_i    romdata   0x00004e    program   0x000000
-                   .cinit    romdata   0x000050    program   0x000056
-    .code_communication.o       code   0x0000a6    program   0x000460
-             .code_uart.o       code   0x000506    program   0x00034e
-                      ISR       code   0x000854    program   0x0000f2
-             .code_main.o       code   0x000946    program   0x0000b8
-            .code_timer.o       code   0x0009fe    program   0x0000a8
-               _cinit_scn       code   0x000aa6    program   0x00009e
-            .code_uopen.o       code   0x000b44    program   0x00008a
-         .code_fxd3232u.o       code   0x000bce    program   0x000048
-              .code_app.o       code   0x000c16    program   0x000042
-            .code_uread.o       code   0x000c58    program   0x00003e
-          .code_t0write.o       code   0x000c96    program   0x000038
-           .code_t0open.o       code   0x000cce    program   0x000038
-            .code_board.o       code   0x000d06    program   0x000026
-             _startup_scn       code   0x000d2c    program   0x00001c
-        .code_heartBeat.o       code   0x000d48    program   0x00001a
-               uartdata_i    romdata   0x000d62    program   0x000042
-             TIMER_DATA_i    romdata   0x000da4    program   0x00001e
-               COM_DATA_i    romdata   0x000dc2    program   0x000050
-          .idata_main.o_i    romdata   0x000e12    program   0x000009
+.idata_interruptvector.o_i    romdata   0x00004c    program   0x000000
+.romdata_interruptvector.o    romdata   0x00004c    program   0x000000
+         .idata_uread.o_i    romdata   0x00004c    program   0x000000
+         .romdata_uopen.o    romdata   0x00004c    program   0x000000
+          .romdata_main.o    romdata   0x00004c    program   0x000000
+         .idata_uopen.o_i    romdata   0x00004c    program   0x000000
+             .stringtable    romdata   0x00004c    program   0x000000
+        .romdata_t0open.o    romdata   0x00004c    program   0x000000
+        .idata_t0open.o_i    romdata   0x00004c    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x00004c    program   0x000000
+          .romdata_uart.o    romdata   0x00004c    program   0x000000
+          .idata_uart.o_i    romdata   0x00004c    program   0x000000
+         .romdata_timer.o    romdata   0x00004c    program   0x000000
+         .idata_timer.o_i    romdata   0x00004c    program   0x000000
+         .romdata_uread.o    romdata   0x00004c    program   0x000000
+     .romdata_heartBeat.o    romdata   0x00004c    program   0x000000
+     .idata_heartBeat.o_i    romdata   0x00004c    program   0x000001
+         .idata_udefs.o_i    romdata   0x00004c    program   0x000000
+         .romdata_udefs.o    romdata   0x00004c    program   0x000000
+ .romdata_communication.o    romdata   0x00004c    program   0x000000
+         .romdata_board.o    romdata   0x00004c    program   0x000000
+         .romdata_c018i.o    romdata   0x00004c    program   0x000000
+       .idata_t0write.o_i    romdata   0x00004c    program   0x000000
+       .romdata_t0write.o    romdata   0x00004c    program   0x000000
+           .romdata_app.o    romdata   0x00004c    program   0x000000
+        .romdata___init.o    romdata   0x00004c    program   0x000000
+ .idata_communication.o_i    romdata   0x00004d    program   0x000002
+      .idata_fxd3232u.o_i    romdata   0x00004d    program   0x000000
+         .idata_c018i.o_i    romdata   0x00004f    program   0x000000
+        .idata___init.o_i    romdata   0x00004f    program   0x000000
+         .idata_board.o_i    romdata   0x00004f    program   0x000000
+                   .cinit    romdata   0x000050    program   0x000062
+            .code_udefs.o       code   0x000050    program   0x000000
+            .code_c018i.o       code   0x000050    program   0x000000
+  .code_interruptvector.o       code   0x000050    program   0x000000
+    .code_communication.o       code   0x0000b2    program   0x0003dc
+             .code_uart.o       code   0x00048e    program   0x00034e
+              .code_app.o       code   0x0007dc    program   0x000158
+                      ISR       code   0x000934    program   0x0000ea
+             .code_main.o       code   0x000a1e    program   0x0000b8
+            .code_timer.o       code   0x000ad6    program   0x0000a8
+               _cinit_scn       code   0x000b7e    program   0x00009e
+            .code_uopen.o       code   0x000c1c    program   0x00008a
+         .code_fxd3232u.o       code   0x000ca6    program   0x000048
+            .code_uread.o       code   0x000cee    program   0x00003e
+          .code_t0write.o       code   0x000d2c    program   0x000038
+           .code_t0open.o       code   0x000d64    program   0x000038
+            .code_board.o       code   0x000d9c    program   0x000026
+             _startup_scn       code   0x000dc2    program   0x00001c
+        .code_heartBeat.o       code   0x000dde    program   0x00001a
+               uartdata_i    romdata   0x000df8    program   0x000042
+             TIMER_DATA_i    romdata   0x000e3a    program   0x00001e
+               COM_DATA_i    romdata   0x000e58    program   0x000050
+               APP_DATA_i    romdata   0x000ea8    program   0x00000c
+          .idata_main.o_i    romdata   0x000eb4    program   0x000009
+           .idata_app.o_i    romdata   0x000ebd    program   0x000018
     .config_300001_main.o    romdata   0x300001    program   0x000001
     .config_300002_main.o    romdata   0x300002    program   0x000001
     .config_300003_main.o    romdata   0x300003    program   0x000001
@@ -82,39 +82,39 @@ Linker Map File - Created Sun May 17 10:04:21 2015
                TIMER_DATA      idata   0x000100       data   0x00001e
                  COM_DATA      idata   0x000200       data   0x000050
                  uartdata      idata   0x000250       data   0x000042
-           .udata_c018i.o      udata   0x000292       data   0x00000a
-            .idata_main.o      idata   0x00029c       data   0x000009
-   .idata_communication.o      idata   0x0002a5       data   0x000002
-           .udata_udefs.o      udata   0x0002a7       data   0x000001
-           .udata_board.o      udata   0x0002a8       data   0x000001
-       .idata_heartBeat.o      idata   0x0002a9       data   0x000001
-        .udata_fxd3232u.o      udata   0x0002aa       data   0x000000
-        .idata_fxd3232u.o      idata   0x0002aa       data   0x000000
-          .udata_t0open.o      udata   0x0002aa       data   0x000000
-          .idata_t0open.o      idata   0x0002aa       data   0x000000
-           .udata_uopen.o      udata   0x0002aa       data   0x000000
-           .idata_uopen.o      idata   0x0002aa       data   0x000000
-           .udata_uread.o      udata   0x0002aa       data   0x000000
-           .idata_uread.o      idata   0x0002aa       data   0x000000
-           .idata_udefs.o      idata   0x0002aa       data   0x000000
-         .udata_t0write.o      udata   0x0002aa       data   0x000000
-         .idata_t0write.o      idata   0x0002aa       data   0x000000
-          .udata___init.o      udata   0x0002aa       data   0x000000
-          .idata___init.o      idata   0x0002aa       data   0x000000
-            .idata_uart.o      idata   0x0002aa       data   0x000000
-            .udata_uart.o      udata   0x0002aa       data   0x000000
-           .idata_timer.o      idata   0x0002aa       data   0x000000
-           .udata_timer.o      udata   0x0002aa       data   0x000000
-            .udata_main.o      udata   0x0002aa       data   0x000000
- .idata_interruptvector.o      idata   0x0002aa       data   0x000000
- .udata_interruptvector.o      udata   0x0002aa       data   0x000000
-       .udata_heartBeat.o      udata   0x0002aa       data   0x000000
-   .udata_communication.o      udata   0x0002aa       data   0x000000
-           .idata_board.o      idata   0x0002aa       data   0x000000
-             .idata_app.o      idata   0x0002aa       data   0x000000
-             .udata_app.o      udata   0x0002aa       data   0x000000
-           .idata_c018i.o      idata   0x0002aa       data   0x000000
-                 APP_DATA      idata   0x000300       data   0x000001
+             .idata_app.o      idata   0x000292       data   0x000018
+           .udata_c018i.o      udata   0x0002aa       data   0x00000a
+            .idata_main.o      idata   0x0002b4       data   0x000009
+   .idata_communication.o      idata   0x0002bd       data   0x000002
+           .udata_udefs.o      udata   0x0002bf       data   0x000001
+           .udata_board.o      udata   0x0002c0       data   0x000001
+       .idata_heartBeat.o      idata   0x0002c1       data   0x000001
+         .udata_t0write.o      udata   0x0002c2       data   0x000000
+           .idata_udefs.o      idata   0x0002c2       data   0x000000
+         .idata_t0write.o      idata   0x0002c2       data   0x000000
+           .idata_uread.o      idata   0x0002c2       data   0x000000
+           .udata_uread.o      udata   0x0002c2       data   0x000000
+           .idata_uopen.o      idata   0x0002c2       data   0x000000
+           .udata_uopen.o      udata   0x0002c2       data   0x000000
+          .udata___init.o      udata   0x0002c2       data   0x000000
+          .idata_t0open.o      idata   0x0002c2       data   0x000000
+          .udata_t0open.o      udata   0x0002c2       data   0x000000
+          .idata___init.o      idata   0x0002c2       data   0x000000
+        .idata_fxd3232u.o      idata   0x0002c2       data   0x000000
+        .udata_fxd3232u.o      udata   0x0002c2       data   0x000000
+            .idata_uart.o      idata   0x0002c2       data   0x000000
+            .udata_uart.o      udata   0x0002c2       data   0x000000
+           .idata_timer.o      idata   0x0002c2       data   0x000000
+           .udata_timer.o      udata   0x0002c2       data   0x000000
+            .udata_main.o      udata   0x0002c2       data   0x000000
+ .idata_interruptvector.o      idata   0x0002c2       data   0x000000
+ .udata_interruptvector.o      udata   0x0002c2       data   0x000000
+       .udata_heartBeat.o      udata   0x0002c2       data   0x000000
+   .udata_communication.o      udata   0x0002c2       data   0x000000
+           .idata_board.o      idata   0x0002c2       data   0x000000
+             .udata_app.o      udata   0x0002c2       data   0x000000
+           .idata_c018i.o      idata   0x0002c2       data   0x000000
+                 APP_DATA      idata   0x000300       data   0x00000c
             SFR_UNBANKED0      udata   0x000f80       data   0x000080
 
 
@@ -123,64 +123,65 @@ Linker Map File - Created Sun May 17 10:04:21 2015
                                Start         End      
                            ---------   ---------      
                             0x000000    0x000011      
-                            0x000018    0x000e1a      
+                            0x000018    0x00004e      
+                            0x000050    0x000ed4      
                             0x300001    0x300003      
                             0x300005    0x300006      
                             0x300008    0x30000d      
-            3616 out of 33048 program addresses used, program memory utilization is 10%
+            3801 out of 33048 program addresses used, program memory utilization is 11%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-          APP_comCallBack   0x000c1a    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
-                 APP_init   0x000c16    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
-                 APP_task   0x000c18    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
-                 BRD_init   0x000d06    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\board.c
-                 COM_init   0x0000a6    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-                COM_reset   0x00011a    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-              COM_restart   0x0000dc    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-                 COM_task   0x000140    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-               COM_txData   0x0003c4    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-                COM_txStr   0x000458    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+          APP_comCallBack   0x0008c8    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
+                 APP_init   0x0007dc    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
+                 APP_task   0x0007de    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
+                 BRD_init   0x000d9c    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\board.c
+                 COM_init   0x0000b2    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+                COM_reset   0x000126    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+              COM_restart   0x0000e8    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+                 COM_task   0x00014c    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+               COM_txData   0x00034c    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+                COM_txStr   0x0003e0    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
          EnableInterrupts   0x000022    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\interruptvector.c
-                 FXD3232U   0x000bce    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-               GetAppTime   0x000a46    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
-                  HB_init   0x000d48    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\heartBeat.c
-                  HB_task   0x000d4e    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\heartBeat.c
-               OpenTimer0   0x000cce    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
-                OpenUSART   0x000b44    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uopen.c
-                ReadUSART   0x000c58    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uread.c
-             ResetAppTime   0x000a96    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
-               TIMER0_ISR   0x000854    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
-              TIMER0_init   0x0009fe    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
-             UART_hasData   0x0007ca    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-                UART_init   0x000648    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-                UART_read   0x000804    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-            UART_transmit   0x000748    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-               UART_write   0x000710    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-       UartReceiveHandler   0x000506    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-      UartTransmitHandler   0x0005d0    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-              WriteTimer0   0x000c96    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
-          ___for_lbl00035   0x000424    program     static                          
-          ___for_lbl00036   0x00042a    program     static                          
-          ___for_lbl00037   0x0003fa    program     static                          
+                 FXD3232U   0x000ca6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+               GetAppTime   0x000b1e    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
+                  HB_init   0x000dde    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\heartBeat.c
+                  HB_task   0x000de4    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\heartBeat.c
+               OpenTimer0   0x000d64    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+                OpenUSART   0x000c1c    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uopen.c
+                ReadUSART   0x000cee    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uread.c
+             ResetAppTime   0x000b6e    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
+               TIMER0_ISR   0x000934    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
+              TIMER0_init   0x000ad6    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
+             UART_hasData   0x000752    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+                UART_init   0x0005d0    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+                UART_read   0x00078c    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+            UART_transmit   0x0006d0    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+               UART_write   0x000698    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+       UartReceiveHandler   0x00048e    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+      UartTransmitHandler   0x000558    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+              WriteTimer0   0x000d2c    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
+          ___for_lbl00031   0x0003ac    program     static                          
+          ___for_lbl00032   0x0003b2    program     static                          
+          ___for_lbl00033   0x000382    program     static                          
            ___if_lbl00001   0x000010    program     static                          
-           ___if_lbl00003   0x0009ba    program     static                          
+           ___if_lbl00003   0x000a92    program     static                          
            ___if_lbl00003   0x000020    program     static                          
-           ___if_lbl00004   0x0009d0    program     static                          
-           ___if_lbl00005   0x0009e6    program     static                          
+           ___if_lbl00004   0x000aa8    program     static                          
+           ___if_lbl00005   0x000abe    program     static                          
        ___return_lbl00000   0x000010    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x0009ea    program     static                          
-       ___return_lbl00000   0x000c14    program     static                          
-       ___return_lbl00001   0x000d46    program     static                          
+       ___return_lbl00000   0x000ac2    program     static                          
+       ___return_lbl00000   0x000cec    program     static                          
+       ___return_lbl00001   0x000ddc    program     static                          
        ___return_lbl00002   0x000020    program     static                          
-       ___return_lbl00002   0x000b42    program     static                          
-       ___return_lbl00034   0x000444    program     static                          
-        ___while_lbl00001   0x0009a4    program     static                          
-        ___while_lbl00002   0x0009ea    program     static                          
+       ___return_lbl00002   0x000c1a    program     static                          
+       ___return_lbl00030   0x0003cc    program     static                          
+        ___while_lbl00001   0x000a7c    program     static                          
+        ___while_lbl00002   0x000ac2    program     static                          
                __config_0   0x300001    program     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
                __config_1   0x300002    program     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
               __config_10   0x30000d    program     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
@@ -194,25 +195,25 @@ Linker Map File - Created Sun May 17 10:04:21 2015
                __config_9   0x30000c    program     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
                    __init   0x000006    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
             __zero_memory   0x00002c    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                _do_cinit   0x000aa6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                _do_cinit   0x000b7e    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                   _false   0x000c10    program     static                          
-                 _startup   0x000d2c    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 checksum   0x0004a2    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+                   _false   0x000ce8    program     static                          
+                 _startup   0x000dc2    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 checksum   0x00042a    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
                 compare_l   0x000042    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                copy_loop   0x000b18    program     static                          
-            copy_one_byte   0x000b1e    program     static                          
-                     done   0x000b42    program     static                          
-             done_copying   0x000b2c    program     static                          
+                copy_loop   0x000bf0    program     static                          
+            copy_one_byte   0x000bf6    program     static                          
+                     done   0x000c1a    program     static                          
+             done_copying   0x000c04    program     static                          
            high_interrupt   0x000008    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\interruptvector.c
-                     loop   0x000bdc    program     static                          
-                     loop   0x000d3c    program     static                          
+                     loop   0x000cb4    program     static                          
+                     loop   0x000dd2    program     static                          
                    loop_h   0x00003a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    loop_l   0x000044    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
             low_interrupt   0x000018    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\interruptvector.c
-                     main   0x000946    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
-              parsePacket   0x00032c    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-                     test   0x000ac0    program     static                          
+                     main   0x000a1e    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
+              parsePacket   0x000338    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+                     test   0x000b98    program     static                          
                zero_block   0x00003a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    ADCON0   0x000fc2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                ADCON0bits   0x000fc2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
@@ -401,7 +402,7 @@ Linker Map File - Created Sun May 17 10:04:21 2015
                     TXREG   0x000fad       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     TXSTA   0x000fac       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 TXSTAbits   0x000fac       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-             USART_Status   0x0002a7       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\udefs.c
+             USART_Status   0x0002bf       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\udefs.c
                         W   0x000fe8       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    WDTCON   0x000fd1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                WDTCONbits   0x000fd1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
@@ -429,23 +430,24 @@ Linker Map File - Created Sun May 17 10:04:21 2015
                   __tmp_0   0x000010       data     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
                   __tmp_0   0x000010       data     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
                   __tmp_0   0x000010       data     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
-                  __tmp_0   0x000010       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uopen.c
                   __tmp_0   0x000010       data     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+                  __tmp_0   0x000010       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uopen.c
                       app   0x000300       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
            appUpdateCount   0x000114       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
-               comTimeout   0x0002a5       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+               comTimeout   0x0002bd       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
            comUpdateCount   0x000112       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
             communication   0x000200       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
                     count   0x00010c       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
-                curr_byte   0x000295       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               curr_entry   0x000297       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 data_ptr   0x000299       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                curr_byte   0x0002ad       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x0002af       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x0002b1       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
            heartBeatCount   0x00010e       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
         keypadUpdateCount   0x000110       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
-                 ledState   0x0002a9       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\heartBeat.c
-                 ledState   0x0002a8       data     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\board.c
-                  message   0x00029c       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
-                     prom   0x000292       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 ledState   0x0002c1       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\heartBeat.c
+                 ledState   0x0002c0       data     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\board.c
+                  message   0x0002b4       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
+                     prom   0x0002aa       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                  rfcards   0x000292       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
      timeStampUpdateCount   0x000118       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
                       tmr   0x000100       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
                      uart   0x000250       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
@@ -463,68 +465,68 @@ Linker Map File - Created Sun May 17 10:04:21 2015
        ___return_lbl00000   0x000010    program     static                          
            ___if_lbl00001   0x000010    program     static                          
             low_interrupt   0x000018    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\interruptvector.c
-       ___return_lbl00002   0x000020    program     static                          
            ___if_lbl00003   0x000020    program     static                          
+       ___return_lbl00002   0x000020    program     static                          
          EnableInterrupts   0x000022    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\interruptvector.c
             __zero_memory   0x00002c    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                zero_block   0x00003a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    loop_h   0x00003a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 compare_l   0x000042    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    loop_l   0x000044    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                 COM_init   0x0000a6    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-              COM_restart   0x0000dc    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-                COM_reset   0x00011a    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-                 COM_task   0x000140    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-              parsePacket   0x00032c    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-               COM_txData   0x0003c4    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-          ___for_lbl00037   0x0003fa    program     static                          
-          ___for_lbl00035   0x000424    program     static                          
-          ___for_lbl00036   0x00042a    program     static                          
-       ___return_lbl00034   0x000444    program     static                          
-                COM_txStr   0x000458    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-                 checksum   0x0004a2    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-       UartReceiveHandler   0x000506    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-      UartTransmitHandler   0x0005d0    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-                UART_init   0x000648    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-               UART_write   0x000710    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-            UART_transmit   0x000748    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-             UART_hasData   0x0007ca    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-                UART_read   0x000804    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-               TIMER0_ISR   0x000854    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
-                     main   0x000946    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
-        ___while_lbl00001   0x0009a4    program     static                          
-           ___if_lbl00003   0x0009ba    program     static                          
-           ___if_lbl00004   0x0009d0    program     static                          
-           ___if_lbl00005   0x0009e6    program     static                          
-       ___return_lbl00000   0x0009ea    program     static                          
-        ___while_lbl00002   0x0009ea    program     static                          
-              TIMER0_init   0x0009fe    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
-               GetAppTime   0x000a46    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
-             ResetAppTime   0x000a96    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
-                _do_cinit   0x000aa6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     test   0x000ac0    program     static                          
-                copy_loop   0x000b18    program     static                          
-            copy_one_byte   0x000b1e    program     static                          
-             done_copying   0x000b2c    program     static                          
-       ___return_lbl00002   0x000b42    program     static                          
-                     done   0x000b42    program     static                          
-                OpenUSART   0x000b44    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uopen.c
-                 FXD3232U   0x000bce    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                     loop   0x000bdc    program     static                          
-                   _false   0x000c10    program     static                          
-       ___return_lbl00000   0x000c14    program     static                          
-                 APP_init   0x000c16    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
-                 APP_task   0x000c18    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
-          APP_comCallBack   0x000c1a    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
-                ReadUSART   0x000c58    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uread.c
-              WriteTimer0   0x000c96    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
-               OpenTimer0   0x000cce    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
-                 BRD_init   0x000d06    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\board.c
-                 _startup   0x000d2c    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x000d3c    program     static                          
-       ___return_lbl00001   0x000d46    program     static                          
-                  HB_init   0x000d48    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\heartBeat.c
-                  HB_task   0x000d4e    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\heartBeat.c
+                 COM_init   0x0000b2    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+              COM_restart   0x0000e8    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+                COM_reset   0x000126    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+                 COM_task   0x00014c    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+              parsePacket   0x000338    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+               COM_txData   0x00034c    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+          ___for_lbl00033   0x000382    program     static                          
+          ___for_lbl00031   0x0003ac    program     static                          
+          ___for_lbl00032   0x0003b2    program     static                          
+       ___return_lbl00030   0x0003cc    program     static                          
+                COM_txStr   0x0003e0    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+                 checksum   0x00042a    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+       UartReceiveHandler   0x00048e    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+      UartTransmitHandler   0x000558    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+                UART_init   0x0005d0    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+               UART_write   0x000698    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+            UART_transmit   0x0006d0    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+             UART_hasData   0x000752    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+                UART_read   0x00078c    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
+                 APP_init   0x0007dc    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
+                 APP_task   0x0007de    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
+          APP_comCallBack   0x0008c8    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
+               TIMER0_ISR   0x000934    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
+                     main   0x000a1e    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
+        ___while_lbl00001   0x000a7c    program     static                          
+           ___if_lbl00003   0x000a92    program     static                          
+           ___if_lbl00004   0x000aa8    program     static                          
+           ___if_lbl00005   0x000abe    program     static                          
+       ___return_lbl00000   0x000ac2    program     static                          
+        ___while_lbl00002   0x000ac2    program     static                          
+              TIMER0_init   0x000ad6    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
+               GetAppTime   0x000b1e    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
+             ResetAppTime   0x000b6e    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
+                _do_cinit   0x000b7e    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x000b98    program     static                          
+                copy_loop   0x000bf0    program     static                          
+            copy_one_byte   0x000bf6    program     static                          
+             done_copying   0x000c04    program     static                          
+                     done   0x000c1a    program     static                          
+       ___return_lbl00002   0x000c1a    program     static                          
+                OpenUSART   0x000c1c    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uopen.c
+                 FXD3232U   0x000ca6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                     loop   0x000cb4    program     static                          
+                   _false   0x000ce8    program     static                          
+       ___return_lbl00000   0x000cec    program     static                          
+                ReadUSART   0x000cee    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uread.c
+              WriteTimer0   0x000d2c    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c
+               OpenTimer0   0x000d64    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+                 BRD_init   0x000d9c    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\board.c
+                 _startup   0x000dc2    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x000dd2    program     static                          
+       ___return_lbl00001   0x000ddc    program     static                          
+                  HB_init   0x000dde    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\heartBeat.c
+                  HB_task   0x000de4    program     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\heartBeat.c
                __config_0   0x300001    program     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
                __config_1   0x300002    program     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
                __config_2   0x300003    program     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
@@ -573,20 +575,21 @@ Linker Map File - Created Sun May 17 10:04:21 2015
              AppTimestamp   0x00011a       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\timer.c
             communication   0x000200       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
                      uart   0x000250       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\uart.c
-                     prom   0x000292       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                curr_byte   0x000295       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-               curr_entry   0x000297       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 data_ptr   0x000299       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                  message   0x00029c       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
-               comTimeout   0x0002a5       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
-             USART_Status   0x0002a7       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\udefs.c
-                 ledState   0x0002a8       data     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\board.c
-                 ledState   0x0002a9       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\heartBeat.c
+                  rfcards   0x000292       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
+                     prom   0x0002aa       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                curr_byte   0x0002ad       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x0002af       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x0002b1       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                  message   0x0002b4       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\main.c
+               comTimeout   0x0002bd       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\communication.c
+             USART_Status   0x0002bf       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\pmc_common\USART\udefs.c
+                 ledState   0x0002c0       data     static C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\board.c
+                 ledState   0x0002c1       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\heartBeat.c
                       app   0x000300       data     extern C:\Users\IDEONICS-BNG\Documents\GitHub\IDF8_RFreader\source\app.c
-                    PORTA   0x000f80       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 PORTAbits   0x000f80       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                    PORTB   0x000f81       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                    PORTA   0x000f80       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 PORTBbits   0x000f81       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                    PORTB   0x000f81       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 PORTCbits   0x000f82       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     PORTC   0x000f82       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 PORTDbits   0x000f83       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
@@ -597,20 +600,20 @@ Linker Map File - Created Sun May 17 10:04:21 2015
                  LATAbits   0x000f89       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  LATBbits   0x000f8a       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      LATB   0x000f8a       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     LATC   0x000f8b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  LATCbits   0x000f8b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     LATD   0x000f8c       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     LATC   0x000f8b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  LATDbits   0x000f8c       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     LATE   0x000f8d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     LATD   0x000f8c       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  LATEbits   0x000f8d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     LATE   0x000f8d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      DDRA   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  DDRAbits   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     TRISA   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 TRISAbits   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                TRISBbits   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                    TRISB   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                 DDRBbits   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      DDRB   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                 DDRBbits   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                    TRISB   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                TRISBbits   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  DDRCbits   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      DDRC   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     TRISC   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
@@ -621,16 +624,16 @@ Linker Map File - Created Sun May 17 10:04:21 2015
                  DDRDbits   0x000f95       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 TRISEbits   0x000f96       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     TRISE   0x000f96       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     DDRE   0x000f96       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  DDREbits   0x000f96       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     DDRE   0x000f96       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                   OSCTUNE   0x000f9b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
               OSCTUNEbits   0x000f9b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  PIE1bits   0x000f9d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      PIE1   0x000f9d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     PIR1   0x000f9e       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  PIR1bits   0x000f9e       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     IPR1   0x000f9f       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     PIR1   0x000f9e       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  IPR1bits   0x000f9f       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     IPR1   0x000f9f       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      PIE2   0x000fa0       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  PIE2bits   0x000fa0       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      PIR2   0x000fa1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
@@ -705,16 +708,16 @@ Linker Map File - Created Sun May 17 10:04:21 2015
                     T1CON   0x000fcd       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     TMR1L   0x000fce       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     TMR1H   0x000fcf       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                 RCONbits   0x000fd0       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      RCON   0x000fd0       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                 RCONbits   0x000fd0       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                WDTCONbits   0x000fd1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    WDTCON   0x000fd1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                  HLVDCON   0x000fd2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-              HLVDCONbits   0x000fd2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                LVDCONbits   0x000fd2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                    LVDCON   0x000fd2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                   OSCCON   0x000fd3       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+              HLVDCONbits   0x000fd2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                  HLVDCON   0x000fd2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                OSCCONbits   0x000fd3       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                   OSCCON   0x000fd3       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                 T0CONbits   0x000fd5       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     T0CON   0x000fd5       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     TMR0L   0x000fd6       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
@@ -738,8 +741,8 @@ Linker Map File - Created Sun May 17 10:04:21 2015
                  POSTDEC1   0x000fe5       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                  POSTINC1   0x000fe6       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     INDF1   0x000fe7       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
-                     WREG   0x000fe8       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                         W   0x000fe8       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
+                     WREG   0x000fe8       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                      FSR0   0x000fe9       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     FSR0L   0x000fe9       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm
                     FSR0H   0x000fea       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4520.asm

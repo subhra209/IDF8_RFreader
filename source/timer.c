@@ -44,10 +44,10 @@ void TIMER0_ISR(void)
   	INTCONbits.TMR0IF = 0;
 
 	++heartBeatCount;
-	++keypadUpdateCount;
+//	++keypadUpdateCount;
 	++comUpdateCount;
 	++appUpdateCount;
-	++uiUpdateCount;
+//	++uiUpdateCount;
 
 	--timeStampUpdateCount;
 

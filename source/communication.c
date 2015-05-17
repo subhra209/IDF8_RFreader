@@ -164,7 +164,8 @@ void COM_task()
 
 			
 
-			if(uartData == communication.rx_eop )
+		//	if(uartData == communication.rx_eop )
+			if(communication.rxPacketIndex >= 6)
 			{
 				UINT8 parseResult = 0;
 				COM_RESP_CODE txCode = COM_RESP_NONE;
@@ -182,6 +183,7 @@ void COM_task()
 											
 					if( communication.callBack != 0 )
 					{
+
 						communication.txPacketLength = communication.callBack(&communication.rxPacketBuffer[COM_RX_DATA_START_INDEX], &communication.txCode,
 													  &txData);
 					
@@ -227,6 +229,7 @@ void COM_task()
 			else
 			{
 				communication.rxPacketBuffer[communication.rxPacketIndex++]=uartData;
+			
 				if( communication.rxPacketIndex >= RX_PACKET_SIZE)
 				{
 					communication.txPacketBuffer[COM_DEVICE_ADDRESS_INDEX] = DEVICE_ADDRESS;	//store device address
@@ -238,6 +241,7 @@ void COM_task()
 					communication.state = COM_IN_TX_DATA;
 					
 				}
+			
 			}
 			break;
 
@@ -264,6 +268,11 @@ void COM_task()
 
 UINT8 parsePacket(UINT8 *respCode)
 {
+
+#ifdef _NO_CHECKSUM_
+		return SUCCESS;
+#else
+
 	UINT8 receivedChecksum = communication.rxPacketBuffer[communication.rxPacketIndex-1];
 	UINT8 genChecksum = 0;
 
@@ -286,6 +295,7 @@ UINT8 parsePacket(UINT8 *respCode)
 		*respCode = COM_RESP_CHECKSUM_ERROR;
 	 	return FAILURE;
 	}
+#endif
 }
 
 

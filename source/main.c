@@ -174,7 +174,7 @@ void main(void)
     {
 
 
-		if( heartBeatCount >= 100 )
+		if( heartBeatCount >= 250 )
 		{
 			HB_task();
 			heartBeatCount = 0;
@@ -186,7 +186,7 @@ void main(void)
 			comUpdateCount = 0;
 		}
 
-		if( appUpdateCount >= 500 )
+		if(appUpdateCount >= 10)
 		{
 			APP_task();
 			appUpdateCount = 0;

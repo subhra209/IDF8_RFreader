@@ -15,20 +15,13 @@ void high_interrupt (void)
 	/*
    	* Inline assembly that will jump to the ISR.
    	*/
-#if(defined __18F8722_H) ||(defined __18F46K22_H)
-	if(PIR1bits.RC1IF == 1)
-	{
-		_asm GOTO Uart1_ReceiveHandler _endasm
-	}
-
-#else
 
 	if( PIR1bits.RCIF == 1 )
 	{
 		_asm	goto UartReceiveHandler _endasm
 		
 	}
-#endif
+
 
 
 /*
