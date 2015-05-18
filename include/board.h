@@ -50,21 +50,21 @@
 
 
 // Heart Beat 
-#define	HEART_BEAT				LATEbits.LATE0
-#define	HEART_BEAT_DIR			TRISEbits.TRISE0				
+#define	HEART_BEAT				LATDbits.LATD1
+#define	HEART_BEAT_DIR			TRISDbits.TRISD1				
 	
 
 //Tower Lamp Configaration
 
-#define LAMP_GREEN				LATAbits.LATA1
-#define LAMP_GREEN_DIR			TRISAbits.TRISA1
+#define LAMP_RED				LATAbits.LATA1
+#define LAMP_RED_DIR			TRISAbits.TRISA1
 
 #define LAMP_YELLOW				LATAbits.LATA2
 #define LAMP_YELLOW_DIR			TRISAbits.TRISA2
 
 
-#define LAMP_RED				LATAbits.LATA3
-#define LAMP_RED_DIR			TRISAbits.TRISA3
+#define LAMP_GREEN				LATAbits.LATA3
+#define LAMP_GREEN_DIR			TRISAbits.TRISA3
 
 
 #define	LAMP_BLUE				LATAbits.LATA4
