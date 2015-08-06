@@ -67,7 +67,7 @@ void COM_init(UINT8 rx_sop , UINT8 rx_eop ,UINT8 tx_sop , UINT8 tx_eop , UINT8 (
 void COM_restart()
 {
 
-	UART_init(9600);	//initialize uart
+	UART_init(19200);	//initialize uart
 
 	communication.rxPacketIndex = 0;
 	communication.txPacketLength = 0;
@@ -121,6 +121,12 @@ void COM_task()
 {
 	volatile UINT8 uartData = 0,i;
 	communication.curAppTime = GetAppTime();
+	if(RCSTAbits.OERR == 1)
+	{
+		RCSTAbits.CREN = 0;
+		Delay10us(1);
+		RCSTAbits.CREN = 1;
+	}
 	if( communication.prevAppTime != communication.curAppTime)
 	{
 		if( communication.prevState == communication.state && (communication.state == COM_IN_PACKET_COLLECTION))
